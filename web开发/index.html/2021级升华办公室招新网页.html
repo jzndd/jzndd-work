@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2021级升华办公室招新首页</title>
+    <style>
+        body {
+            background-color: cornsilk;
+        }
+
+        /*给第一个大div盒子装上一条龙*/
+        .long {
+            background-image: url(../images/龙.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 800px;
+            margin: 0;
+            opacity: 0.8;
+            position: relative;
+        }
+
+        /*给所有部门披上一颗龙珠*/
+        .longzhu {
+            background-image: url(../images/龙珠.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            padding-left: 10px;
+            font-size: 20px;
+        }
+
+        /*给程序部定位*/
+        .chengxu {
+            position: absolute;
+            top: 200px;
+            left: 530px;
+        }
+
+        /*给网络部定位*/
+        .wangluo {
+            position: absolute;
+            top: 350px;
+            left: 450px;
+        }
+
+        /*给美工部定位*/
+        .meigong {
+            position: absolute;
+            top: 570px;
+            left: 500px;
+        }
+
+        /*给运营部定位*/
+        .yunying {
+            position: absolute;
+            top: 130px;
+            left: 880px;
+        }
+
+        /*给办公室部定位*/
+        .bangong {
+            position: absolute;
+            top: 320px;
+            left: 980px;
+        }
+
+        /*给信息部定位*/
+        .xinxi {
+            position: absolute;
+            top: 490px;
+            left: 1010px;
+        }
+
+        /*给视频团定位*/
+        .shipin {
+            position: absolute;
+            top: 650px;
+            left: 900px;
+        }
+
+
+
+
+        p {
+            text-indent: 2em;
+        }
+
+        .red {
+            color: red;
+            font-size: 25px;
+        }
+
+        .intermidiate {
+            text-align: center;
+        }
+
+        /*为列表设置格式，包括填充颜色等*/
+        .dlleft {
+            float: left;
+            width: 260px;
+            background-color: darkgrey;
+            padding-right: 0px;
+            line-height: 85px;
+
+        }
+
+        .divleft {
+            float: left;
+            margin: 0px;
+
+        }
+
+        /*鼠标移到这里会变色*/
+        .dlleft a:hover {
+            background-color: orange;
+        }
+
+
+        .dlleft dd a {
+            display: inline-block;
+            height: 113px;
+            width: 220px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #fff;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        h1 {
+            text-shadow: 2px 2px red;
+            font-size: 40px;
+        }
+
+        /*最后一个盒子*/
+        .last {
+            width: 700px;
+            height: 400px;
+            border: 5px green dotted;
+            margin: 0 auto;
+            padding: 0px;
+            text-align: center;
+            line-height: 400px;
+            font-size: 60px;
+            color: rgb(165, 42, 42);
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div class="long">
+        <p class="red">
+            <b>在古老的中南大学里面有着这样一个传闻，在中南大学的一个神秘的地方，分别珍藏着七颗威力无与伦比的龙珠，而倘若一个人能获得哪怕一颗龙珠，他就能逐渐拥有超乎常人的智慧与力量，还能打开新世界的大门，见识到更多实力强大的强者们。
+                而那个神秘的地方便是————升华办公室！</b>
+        </p>
+
+        <div class="longzhu chengxu"><a href="程序部.html" target="_blank">程序部</a></div>
+        <div class="longzhu wangluo"><a href="网络部.html" target="_blank">网络部</a></div>
+        <div class="longzhu meigong"><a href="#" target="_blank">美工部</a></div>
+        <div class="longzhu yunying"><a href="#" target="_blank">运营部</a></div>
+        <div class="longzhu bangong"><a href="#" target="_blank">办公室</a></div>
+        <div class="longzhu xinxi"><a href="#" target="_blank">信息部</a></div>
+        <div class="longzhu shipin"><a href="#" target="_blank">视频团</a></div>
+    </div>
+
+
+    <dl class="dlleft">
+        <dt>关于我们</dt>
+        <dd><a href="#liaojie">了解升华办公室</a></dd>
+        <dd><a href="#jiaru">加入升华办公室</a></dd>
+    </dl>
+
+    <dl class="dlleft">
+        <dt>关注我们</dt>
+        <dd><a href="#vx">微信</a></dd>
+        <dd><a href="#bilibili">bilibili</a></dd>
+    </dl>
+
+
+    <dl class="dlleft">
+        <dt>新生小福利</dt>
+        <dd><a href="#ruxue">入学小提示</a></dd>
+        <dd><a href="#zhidao">专业指导</a></dd>
+
+    </dl>
+    <div class="divleft"><img src="../images/男.png" width=260px height=330px></div>
+    <div><img src="../images/女.png" width=260px height=320px></div>
+
+
+
+    <h1>关于我们</h1>
+
+    <h3 id="liaojie">了解升华办公室</h3>
+    <p> 升华工作室又称校团委网络信息部，隶属于共青团中南大学委员会，下设程序部、网络部、视频团、美工部、
+        办公室、信息部、运营部七大部门。我们负责着“中南小团子”哗哩哗哩官方账号，并与团委宣传部一起参与了“中南小团子”微信公众号的运营。与此同时，我们还开发了学生组织招新、中南初印象等微信小程序。
+        想要开发有意思的小程序，制作播放过万的热门视频，撰写阅读量十万+的推送，或是单推小团子虚拟形象?你感兴趣的都在升华工作室!更好的升华需要更优秀的你,我们在这里诚挚地邀请各位新同学加入我们，一起为升华工作室的明天而努力!
+    </p>
+
+    <h3 id="jiaru"> 加入升华办公室</h3>
+    <p>报名方式1:于2021年9月19日上午九点至下午五点到南校区二食堂外草坪处领取并当场填写报名表格，也可先自行打印报名表格的word文档（可点击下方图片保存后打印）然后于19日交<br /></p>
+    <p class="intermidiate"><img src="../images/报名表a.png" /></p>
+    <p>报名方式2：用微信扫描下方二维码填写个人信息并报名</p>
+    <p class="intermidiate"><img src="../images/二维码.png" width="300" /></p>
+    <p>报名方式3：加入我们的qq群：12345678，并从中随便寻找一个帅气的学长，将所需的个人信息发给他，麻烦他帮你填表（前提是学长有时间哈）
+    </p>
+
+    <h1>关注我们</h1>
+    <h4 id="vx">微信小程序：中南初印象，学生组织招新</h4>
+    <h4 id="vx">微信公众号：中南小团子</h4>
+    <h4 id="bilibili">bilibili:中南小团子</h4>
+
+    （摊手）我们就是小团子背后的男人 【点击<a href="https://b23.tv/tj0EaJ">这里</a>看看更为生动的升华办公室介绍吧】
+
+    <h1>新生小福利</h1>
+    <h3 id="ruxue">学长吐血整理的入学小提示</h3>
+    <p>1.好好学习，<b>千万千万千万不要挂科</b>。不要听外面那些不挂科的大学是不完整的，等你挂科了，你会羡慕那些拿奖学金的人。<br />
+        2.合理使用生活费.在没有赚钱能力的情况下，要合理使用爸妈给的生活费。不要攀比，尽量不要使用花呗、京东白条等等，最不能接触的就是校园贷。<br />
+        3.学会拒绝。刚入大学可能会有许多师兄师姐（甚至大部分可能是校外人员，假装师兄师姐）给你们推销一些小物品，但如果自己实在不需要，要学会拒绝<br />
+        4.多准备些自我介绍。军训，竞选班干，报名组织等等都需要用到自我介绍，提前准备肯定不会错的啦。<br />
+        5.警惕传销。凡是叫你交钱进入什么组织可以学习什么能力的，都需要警惕警惕再警惕。<br />
+        6.尊重室友的休息时间。半夜要用电脑，请使用耳机、轻敲键盘。<br />
+        7开学期间很多外校人员会混进来，这时候个人物品很容易丢失。请记住，寝室并不是保险箱，贵重物品一定要保管好，大额现金务必存在储蓄卡里，也别用生日或手机号码做密码。<br />
+        8学会自己查找信息。养成注意看中南e行，中南大学官网和学院官网的习惯，学校很多事情不注意就错过了。<br />
+        9很多事情别人通知你了，要说谢谢，没有通知你，不要责怪别人，因为那些事你其实应该自己弄清楚。<br />
+        10.男女比例和脱不脱单没什么关系，不要将没有找到女朋友的事情怪罪到男女比例上（话题变得奇怪起来）<br />
+        11.打印店打印时不要登陆qq账号，否则qq可能有封号风险。<br />
+        12合理规划好自己的时间。没事干的话可以可以和新同学聊聊天或预习一下，不要窝宿舍打游戏。<br />
+        13.刚开学还不怎么忙的时候可以多参加一些活动，如心理短剧，校运会等<br />
+        14.最好选择一个组织加入以充实自己的课外生活，比如<b>升华办公室网络部就很不错</b>。<br />
+        15........<br />
+        16........<br />
+        17.......<br />
+        18.......<br />
+        19......<br />
+        20.Last but not least,多祈雨，小心学长学姐们种太阳成功！<br />
+    </p>
+    <h3 id="zhidao">专业指导</h3>
+    <p>能进升华办公室的学长学姐肯定都是非常优秀的啦，对你掌握一些专业技术知识有一定的指导作用<br />
+        比如网络部的学长学姐可以帮你解决一些包括但不限于web前端开发的问题<br />
+        程序部的学长学姐可以给你关于figma制作app的 logo上面的一些指引<br />
+        又比如视频团有些学长学姐是b站上的up主，对剪辑视频什么的都有一些见解和经验分享给你们<br />
+        ......<br />
+        ......<br />
+        其实我写了那么多，就是希望我<del>锚点链接的效果可以做出来</del><ins>你能加入我们升华办公室的大家庭</ins>!</p>
+
+    <div class="last">升华办公室欢迎你！</div>
+
+
+
+</body>
+
+</html>
